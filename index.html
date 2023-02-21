@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Rater</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="container bg-warning p-2 text-dark bg-opacity-10 m-5">
+  
+  <div class="card text-white" style="height: 50vh; width: 90vw;">
+    <img src="hd-wallpaper-geef451c07_1920.jpg" class="card-img" style="height: 50vh; width: 90vw;" alt="banner with spices">
+    <div class="card-img-overlay">
+      <h1 class="card-title text-center fw-bold m-4">Recipe Rater</h1>
+      <h2 class="card-text text-center fw-bold m-5">Log your recipes that you have tried and rate them based on your personal preferences.</h2>
+    </div>
+  </div>
+
+  <div class="card m-2 bg-warning bg-opacity-25">
+    <div class="card-body m-1">
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group fs-4 fw-bold">
+            <label for="new-type-name">Food Type</label>
+            <input type="text" class="form-control" id="new-type-name">
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="new-type" class="btn btn-danger btn-lg">Create</button>
+      </div>
+     </div>
+  </div><br>
+
+  <div id="types"></div>
+
+  <script src="index.css"></script>
+  <script src="index.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
